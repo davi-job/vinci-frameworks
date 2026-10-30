@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: "Genos", sans-serif;
+	--font-grotesk: "Host Grotesk", sans-serif;
+
+	--color-vinci: #e51837;
+
+	--color-ink: #1a1a1a;
+	--color-muted: #666666;
+	--color-soft: #979797;
+	--color-line: #d8d8d8;
+}
+
+@utility wrapper {
+	width: 100%;
+	max-width: 1440px;
+
+	margin-inline: auto;
+	padding-inline: 1.25rem;
+
+	@variant md {
+		padding-inline: 2.5rem;
+	}
+}
+
+body {
+	color: var(--color-ink);
+}
